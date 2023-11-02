@@ -1,0 +1,206 @@
+h3 {
+    color: rgb(28, 1, 1);
+}
+
+
+body {
+    background: #d2d2d2;
+} 
+
+
+.head {
+    color: rgb(210, 169, 116);
+    padding-left: 45%;
+    justify-content: center;
+}
+
+
+/* .line_head {
+    position: relative;
+    bottom: 10px;
+} */
+
+
+.my_photo {
+    /* position: relative; */
+    /* top: 6px; */
+    /* right: 30px; */
+    border-radius: 20px;
+    box-shadow: 5px 5px 14px rgb(70, 68, 64);
+}
+
+
+.info {
+    color: #000000;
+    margin: auto;
+    width: 100%;
+    /* max-width: 700px; */
+}
+
+
+.inline {
+    /* position: relative; */
+    /* bottom: 12px; */
+    display: inline-block;
+    display: -moz-inline-stack;
+    vertical-align: top;
+    zoom: 1;
+    display: inline;
+    display: flex;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    /* flex-direction: column; */
+    /* display: flexbox; */
+}
+
+
+.right {
+    margin-left: 40px;
+}
+
+
+/* .my_info {
+    margin-bottom: 20px;
+    display: flex;
+    display: inline-block;
+    padding: 0px 0px 0px 10%;
+    vertical-align: top;
+} */
+
+
+.container {
+    max-width: 750px;
+    margin: auto;
+    padding-top: 30px;
+}
+
+
+.block {
+    border-radius: 15px;
+    padding: 15px 20px; 
+    margin-bottom: 20px;
+    box-shadow: 4px 4px 10px rgb(0, 0, 0);
+}
+
+
+/* .block h2 {
+    margin-bottom: 10px;
+} */
+
+
+.color_1 {
+    background-color: rgb(192, 225, 241);
+}
+
+
+.color_2 {
+    background-color: rgb(235, 183, 183);
+}
+
+
+.color_3 {
+    background-color: rgb(214, 247, 206);
+}
+
+
+.color_4 {
+    background-color: rgb(237, 236, 197);
+}
+
+
+/* .vk, .ok {
+    color: black;
+    text-decoration: none;
+} */
+
+
+a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+
+
+a:hover {
+    text-decoration: underline;
+}
+
+
+a:active {
+    color: blue;
+}
+
+
+a:visited {
+    color: rgb(0, 0, 0);
+}
+
+
+.btn {
+    background-color: black;
+    padding: 12px 20px;
+    color: #fff;
+    border: none;
+    font-family: inherit;
+    cursor: pointer;
+    border-radius: 8px;
+}
+
+
+.btn:hover {
+    opacity: 0.8;
+}
+
+
+.list {
+    padding: 0 20px;
+}
+
+
+.list {
+    color: #5c5a5a;
+    margin-bottom: 10px;
+}
+
+
+.form h2 {
+    text-align: center;
+}
+
+
+.form-grup label {
+    display: block;
+    font-size: 14px;
+    color: #d2d2d2;
+}
+
+
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    box-sizing: border-box;
+    border: none;
+    background: transparent;
+    border-bottom: 1px solid #a2a2a2;
+    color: #000000;
+    padding: 15px 0 10px;
+    outline: none;
+    font-family: inherit;
+}
+
+
+.form-row {
+    margin-bottom: 10px;
+}
+
+
+.form-row .form-group:last-child {
+    margin-right: 0;
+}
+
+
+.form-row .form-group {
+    display: inline-block;
+    margin-right: 20px;
+    width: 47%;
+    /* width: calc(50%-20px); */
+}
